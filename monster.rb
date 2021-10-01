@@ -1,5 +1,5 @@
 class Monster < Character
-  attr_reader :name, :offense, :defense, :damage
+  attr_reader :name, :offense, :defense
   attr_accessor :hp
 
   def attack(brave)
